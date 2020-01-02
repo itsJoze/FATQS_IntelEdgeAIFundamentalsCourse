@@ -5,6 +5,7 @@ Build and deploy AI models at the edge! Leverage the potential of edge computing
 More detailes about the program [here](https://www.udacity.com/scholarships/intel-edge-ai-scholarship).
 
 ## Content
+1. Reources
 2. [Lesson 2 - Leveraging Pre-Trained Models](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%202%20-%20Leveraging%20Pre-Trained%20Models.md)
 3. [Lesson 3 - The Model Optimizer](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%203%20-%20The%20Model%20Optimizer.md)
 4. [Lesson 4 - The Inference Engine](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%204%20-%20The%20Inference%20Engine.md)
