@@ -1,4 +1,10 @@
-# Frequently Asked Technical Questions (FATQS) of the Intel® Edge AI Fundamentals Course
+# FATQs - Intel® Edge AI Fundamentals Course
+## Why we created this repo?
+All the channels of our Slack community are constantly buzzing with great questions and amazing answers. These answers can be in the form of lucid explanations from our peers or references to some awesome resources. But due to a limitation in free plan of Slack, we can search only upto the last 10K messages. Due to this limitation, we are loosing the efforts of our peers and all the amazing resources. To prevent this loss of invaluable resources, we have created this repo where we would be regularly be adding frequently asked questions and the possible solutions shared by our peers in the Slack channels. Also, this repo would help future students of this course as they would find solutions to most of the common problems in a single repo.
+
+We hope to make this repo useful not only for the students of "Secure and Private AI Scholarship Challenge with Facebook" but also for future students of Secure and Private AI course by Facebook AI on Udacity.
+
+## Intel® Edge AI Scholarship Program
 
 Build and deploy AI models at the edge! Leverage the potential of edge computing using the Intel® Distribution of OpenVINO™ toolkit to fast-track development of high-performance computer vision and deep learning inference applications. Apply to the Intel® Edge AI Fundamentals Course for the chance to participate in a vibrant student community and to earn one of 750 Nanodegree program scholarships to continue your education with the Intel Distribution of OpenVINO toolkit and other computer vision tools.
 
