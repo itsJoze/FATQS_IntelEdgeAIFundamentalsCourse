@@ -5,8 +5,12 @@ Build and deploy AI models at the edge! Leverage the potential of edge computing
 More detailes about the program [here](https://www.udacity.com/scholarships/intel-edge-ai-scholarship).
 
 ## Content
-1. [Useful Reources](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Useful%20Resources.md)
+1. [Lesson 1 - Introduction to AI at the Edge](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%201%20-%20Introduction%20to%20AI%20at%20the%20Edge.md)
 2. [Lesson 2 - Leveraging Pre-Trained Models](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%202%20-%20Leveraging%20Pre-Trained%20Models.md)
 3. [Lesson 3 - The Model Optimizer](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%203%20-%20The%20Model%20Optimizer.md)
 4. [Lesson 4 - The Inference Engine](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%204%20-%20The%20Inference%20Engine.md)
 5. [Lesson 5 - Deploying an Edge App](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%205%20-%20Deploying%20an%20Edge%20App.md)
+
+
+
+[Useful Reources](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Useful%20Resources.md)
