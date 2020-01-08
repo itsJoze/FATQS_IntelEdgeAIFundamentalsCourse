@@ -1,5 +1,5 @@
 # 3 - The Model Optimizer
-__1. Tensorflow Model detection zoo has its own per-processing pipeline to process its input shape and size, But while converting tf model using openvino it ignores pre-proccessing step. In this case, how to know required shape and size of the tf model? For example, downloading some model from the link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md__
+__1. Tensorflow Model detection zoo has its own per-processing pipeline to process its input shape and size, But while converting tf model using openvino it ignores pre-proccessing step. In this case, how to know required shape and size of the tf model ? For example, downloading some model from the link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md__
 
 There is a utilities called `import_pb_to_tensorboard.py` under tf tools that can convert pb file into format that tensorboard can visualize. Then launch tensorboard to inspect the model layers
 
@@ -25,3 +25,9 @@ Although you can freeze layers for other reasons. You can freeze a custom layer 
 __5. Can anyone share good study material for cutting parts of the model?__
 
 follow this link : https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_Cutting_Model.html
+
+__6. Completed the execution of Tensorflow model, Caffe model and ONNX model. Here are the execution times for each of them. The execution time significantly reduced by each model. Is this due to the fact of absence of freezing/unfreezing steps in Caffe model and ONNX model? https://inteledgeaichallenge.slack.com/files/UREAL7J3D/FSBNSBE30/image.png)__
+
+well to some point it is correct but in Caffe and ONNX there is no concept of freezing
+ONNX was done easily because there was no ```deploy.prototxt``` like as in Caffe
+
