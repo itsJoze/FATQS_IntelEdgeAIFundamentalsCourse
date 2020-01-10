@@ -4,7 +4,7 @@ __1. What is the use of `.transpose` and `.reshape` in the pre-processing ?__
 
 `reshape` is more intuitive to explain, simply put when you try to have a different matrix/array/tensor shape from the one you originally have, say 4 by 4, and you would want to reshape it into 2 by 8, then you will need to use .reshape. On the other hand, `transpose` is inherently a matrix operation. It is an operation to interchange each row with the corresponding column. But in both cases the dimensionalities before and after the so-called "transformation" has to conform to some conservation rule like the number of elements contained in the case of .reshape. Here it's an [article](https://lihan.me/2018/01/numpy-reshape-and-transpose/) that compare both methods
 
-__2.  All this models are pretrained, but how long does it take to train a model if you have all the data? Hours, days, weeks of processing? And if the data changes a little or some data is corrected, do you have to do all the training process again? If you are developing a new model, how do the testing if you have to wait a lot of time? __
+__2.  All this models are pretrained, but how long does it take to train a model if you have all the data? Hours, days, weeks of processing? And if the data changes a little or some data is corrected, do you have to do all the training process again? If you are developing a new model, how do the testing if you have to wait a lot of time ?__
 
 * If for example, you can't afford a good GPU for intensive processing stuff (like training big models), you can use Google Collaboratory which offers you 16GB RAM, GPU and 50 GB ROM.
 * Models can take a lot of time and also very little time. It all depends were you begin. For example there is a field called transfer learning where you grab existant NN (neural network) architectures and you only retrain the outermost layers. With the result being very effective & with little improvements, it is one of the most pragmatic pardaigms in dealing with Computer Vision.
@@ -23,6 +23,7 @@ __3. Can you test more image without installing the whole system on my computer?
 * Also, in the udacity workspace you can do it.. just upload your images in the images folder in the workspace and test them.
 
 __4. Where can I download OpenVINO and non-OpenVINO pre trained models? For example, where can I download pre trained model for face expression detection?__
+
 * https://www.analyticsvidhya.com/blog/2018/07/top-10-pretrained-models-get-started-deep-learning-part-1-computer-vision/
 * TF : https://github.com/tensorflow/models
 * Caffe : https://github.com/BVLC/caffe/wiki/Model-Zoo
@@ -30,6 +31,7 @@ __4. Where can I download OpenVINO and non-OpenVINO pre trained models? For exam
 * Pytorch : https://pytorch.org/docs/stable/torchvision/models.html
 
 __5.  Locating the model downloader in the Loading Pre-Trained Models section__
+
 The tool downloader.py is in `/opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader` path.
 
 __6. 
